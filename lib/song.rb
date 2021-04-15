@@ -18,8 +18,9 @@ class Song
   end
 
   def self.artists
-    song = Song.artists#@@artists<< @artist.uniq
-    song.uniq
+    Song.artists.each do |s|#@@artists<< @artist.uniq
+      s.uniq
+    end
   end
 
   def self.genres
