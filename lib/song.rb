@@ -20,6 +20,7 @@ class Song
   def self.artists
     Song.artist = @artist
     @@artists<< @artist.uniq
+    @@artists
   end
 
   def self.genres
