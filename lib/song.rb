@@ -37,6 +37,6 @@ class Song
     @@genres.each do |genre|
       @@genre_count[genre] = @@genres.count(genre)
     end
-    @@artist_count
+    @@genre_count
   end
 end
